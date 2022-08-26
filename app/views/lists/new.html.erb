@@ -1,11 +1,11 @@
 <h1>新規投稿</h1>
+<!-- form_with部分 -->
+<%= form_with model: @list do |f| %>
+  <h4>タイトル</h4>
+  <%= f.text_field :title %>
 
-<!--fotm_with-->
-<%= form_with model: List.new do |f| %>
-<h4>タイトル</h4>
-<%= f.text_field :title %>
+  <h4>本文</h4>
+  <%= f.text_area :body %>
 
-<%= f.text_field_area :bpdy %>
-
-<%= f.submit '投稿' %>
-<% end %>
+  <%= f.submit '投稿' %>
+z<% end %>
