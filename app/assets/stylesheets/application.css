@@ -27,3 +27,7 @@ header{
   text-align: center;
   border-top: solid 5px #000000;
 }
+
+header .headline{
+  font-size: 32px;
+}
