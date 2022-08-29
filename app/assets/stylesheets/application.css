@@ -80,8 +80,12 @@ main{
 }
 
 .list-body{
+  display: block;
   color: gray;
   font-size: 12px;
+  ovrr-flow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
 }
 
 .list-title{
