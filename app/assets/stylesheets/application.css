@@ -62,5 +62,11 @@ main{
 }
 
 .list-box{
+  width: 200px;
+  height: 250px;
+  margin: 10px;
+}
 
+.list-commit{
+  width: 200px;
 }
