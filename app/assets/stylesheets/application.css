@@ -28,6 +28,10 @@ header{
   border-top: solid 5px #000000;
 }
 
+header, h1, nav, .list-comment{
+  font-familiy: 'Kaushan', cursive, sane-serif;
+}
+
 header .headline{
   font-size: 32px;
 }
